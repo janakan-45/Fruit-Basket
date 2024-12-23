@@ -1,0 +1,62 @@
+.signup{
+    border:1px solid black;
+    width:700px;
+    background-image: url("https://img.freepik.com/premium-photo/fruit-mix-concept-assortment-fresh-fruit_917664-17648.jpg");
+    color:white;
+    border-radius:20px;
+    box-shadow: 0px 0px 20px red;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    align-items: center;
+    height:500px;
+}
+form{
+    display:block;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(40%);
+    flex-direction: column;
+    display: flex;
+    gap:2px;
+}
+h1{
+    font-size: 40px;
+    text-shadow: 0px 0px 2px rgb(18, 18, 18);
+    margin-bottom: 20px;
+    text-align: center;
+}
+label{
+    color:rgba(255,255,255,0.8);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+input{
+    background: rgba(255,255,255,0.3);
+    height:20px;
+    line-height: 20px;
+    border-radius: 20px;
+    padding: 0px 20px;
+   
+    margin-bottom: 20px;
+    color:white;
+
+}
+button{
+    background: gray;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+    border:none;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 5px green;
+    color:rgb(241, 13, 13);
+    font-size: 25px;
+}
+button:hover{
+    box-shadow:0px 0px 50px rgb(14, 10, 242) ;
+}
